@@ -25,11 +25,11 @@ The images were captured with a smartphone camera at different times of the day,
 
 Typical EXIF settings are similar to:
 
-| Dataset  | ISO | Focal Length | Aperture | Shutter Speed | Lighting Conditions           |
-| -------- | --- | ------------ | -------- | ------------- | ----------------------------- |
-| dataset1 | 500 | 48mm         | f/1.78   | 1/40s         | Indoor, artificial            |
-| dataset2 | 400 | 24mm         | f/1.78   | 1/50s         | Outdoor, 1 hour before sunset |
-| dataset3 | 400 | 24mm         | f/1.78   | 1/50s         | Outdoor, 1 hour before sunset |
+| Dataset  | ISO | Focal Length | Aperture | Shutter Speed | Lighting Conditions |
+| -------- | --- | ------------ | -------- | ------------- | ------- |
+| dataset1 | 500 | 48mm         | f/1.78   | 1/40s         | Outdoor |          
+| dataset2 | 640 | 24mm         | f/1.8    | 1/64s         | Indoor  |
+| dataset3 | 640 | 24mm         | f/1.8    | 1/50s         | Outdoor |
 
 Inputs are converted to **grayscale (0–255)** and the disparity maps are visualized using the **`inferno` colormap**, where **dark colors ≈ far** and **bright yellow/white ≈ close**.
 
